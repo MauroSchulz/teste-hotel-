@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato e reservas — Via Norte Hotel, Gurupi</title>
+  <meta name="description" content="Reserve direto com o Via Norte Hotel pelo WhatsApp (63) 3315-2000 ou ligue para a recepção 24 horas: (63) 3312-5439.">
+  <link rel="icon" href="assets/img/logo-via-norte-hotel.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,300&family=DM+Sans:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <div id="cabecalho"></div>
+
+  <main>
+    <section class="secao contato" data-sob="solido">
+      <h1 class="t-h1 revelar">Fale com o Via Norte</h1>
+      <div class="contato__grade">
+        <div class="contato__midia quadro revelar">
+          <img src="assets/img/hotel-via-norte-fachada-br-153-1151x1536.jpg" alt="Fachada do hotel vista do alto, de frente para a BR-153">
+        </div>
+        <div class="contato__linhas">
+          <div class="contato__linha revelar">
+            <p class="contato__rotulo">Reservas</p>
+            <div class="contato__conteudo">
+              <p>Reservando direto com o hotel, você não paga taxa de intermediário. Diga as datas e quantas pessoas vêm, e a recepção responde com a disponibilidade.</p>
+              <a class="link" data-whatsapp href="https://wa.me/556333152000">WhatsApp (63) 3315-2000</a>
+            </div>
+          </div>
+
+          <div class="contato__linha revelar">
+            <p class="contato__rotulo">Pedido de reserva</p>
+            <div class="contato__conteudo">
+              <p>Preencha e envie: a mensagem abre pronta no seu WhatsApp.</p>
+              <form class="formulario" data-form-reserva>
+                <div class="formulario__largo">
+                  <label class="t-meta" for="nome">Seu nome</label>
+                  <input id="nome" name="nome" autocomplete="name" required>
+                </div>
+                <div>
+                  <label class="t-meta" for="entrada">Entrada</label>
+                  <input id="entrada" name="entrada" type="date" required>
+                </div>
+                <div>
+                  <label class="t-meta" for="saida">Saída</label>
+                  <input id="saida" name="saida" type="date" required>
+                </div>
+                <div>
+                  <label class="t-meta" for="hospedes">Hóspedes</label>
+                  <select id="hospedes" name="hospedes">
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="t-meta" for="apartamento">Apartamento</label>
+                  <select id="apartamento" name="apartamento"></select>
+                </div>
+                <div class="formulario__largo">
+                  <label class="t-meta" for="mensagem">Observação</label>
+                  <textarea id="mensagem" name="mensagem" placeholder="Apartamento adaptado, nota fiscal para empresa…"></textarea>
+                </div>
+                <button class="botao" type="submit">Enviar pelo WhatsApp</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="contato__linha revelar">
+            <p class="contato__rotulo">Recepção 24 horas</p>
+            <div class="contato__conteudo">
+              <p>Para dúvidas sobre uma reserva feita ou para avisar que vai chegar tarde.</p>
+              <a class="link" href="tel:+556333125439">(63) 3312-5439</a>
+              <a class="link" href="mailto:contato@vianortehotel.com.br">contato@vianortehotel.com.br</a>
+            </div>
+          </div>
+
+          <div class="contato__linha revelar">
+            <p class="contato__rotulo">Empresas e grupos</p>
+            <div class="contato__conteudo">
+              <p>Emitimos nota fiscal com os dados da empresa, informados na reserva ou no check-in. Para hospedagem recorrente ou grupos, pedimos uma proposta pelo WhatsApp.</p>
+              <a class="link" data-whatsapp="Olá! Gostaria de uma proposta de hospedagem para empresa/grupo no Via Norte Hotel." href="https://wa.me/556333152000">Pedir proposta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="midia-cheia" data-sob="midia">
+      <div class="revelar">
+        <div class="midia-cheia__caixa">
+          <div class="midia-cheia__recorte">
+            <div class="midia-cheia__escala">
+              <div class="camada-paralaxe" data-paralaxe="0.15">
+                <img src="assets/img/topo-hotel-piscina.jpg" alt="Vista aérea dos apartamentos, do jardim e da piscina" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="veu" aria-hidden="true"></div>
+          <div class="midia-cheia__legenda">
+            <p class="midia-cheia__rotulo">BR-153, km 672,2<br>/ Gurupi – TO</p>
+            <div class="midia-cheia__lado">
+              <p>A 500 metros do centro. Rodoviária a 2 km, UnirG Campus I a 3 km, Hospital Regional a 4 km e aeroporto a 6 km.</p>
+              <div><a class="link" data-mapa href="https://www.google.com/maps/search/?api=1&query=Via+Norte+Hotel+Gurupi+TO">Abrir no Google Maps</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="rodape"></footer>
+
+  <script src="assets/js/dados.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
